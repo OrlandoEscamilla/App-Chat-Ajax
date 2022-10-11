@@ -38,7 +38,9 @@ include "db.php";
 			<textarea name="mensaje" placeholder="Ingresa tu mensaje"></textarea>
 			<input type="submit" name="enviar" value="Enviar">
 		</form>
-
+		<br>
+		<p>porfavor llenar todos los campos</p>
+		
 		<?php
 			if (isset($_POST['enviar'])) {
 
