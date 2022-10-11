@@ -40,6 +40,7 @@ include "db.php";
 		</form>
 		<br>
 		<p>porfavor llenar todos los campos</p>
+		<p>porfavor llenar todos los campos</p>
 		
 		<?php
 			if (isset($_POST['enviar'])) {
